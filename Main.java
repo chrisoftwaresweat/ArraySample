@@ -12,7 +12,7 @@ public class Main{
         //REMEMBER: index starts @ 0, length starts @ 1
 
         //1D Array
-        String[] fruits = {"apple", "banana", "mango", "watermelon"}; //the array itself
+        String[] fruits = {"apple", "banana", "mango", "watermelon"};
 
         //print all using a normal for loop
         System.out.print("Normal for loop: ");
