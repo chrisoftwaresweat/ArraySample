@@ -12,22 +12,22 @@ public class Main{
         //REMEMBER: index starts @ 0, length starts @ 1
 
         //1D Array
-        String[] fruits = {"apple", "banana", "mango", "watermelon"};
+        String[] fruits = {"apple", "banana", "mango", "watermelon"}; //the array itself
 
         //print all using a normal for loop
         System.out.print("Normal for loop: ");
         for(int i = 0; i<fruits.length; i++){
             System.out.printf("%s ", fruits[i]);
         }
-        
+
         System.out.println("\n"); //don't mind
 
         //print all using enhanced for loop
-        System.out.print("Enhanced for loop: ");
+        System.out.print("Enhance for loop: ");
         for(String fruitBasket : fruits){
             System.out.printf("%s ", fruitBasket);
         }
-        
+
         System.out.println("\n"); //don't mind
 
         //print each fruit in the array
@@ -56,7 +56,27 @@ public class Main{
         System.out.printf("%d ", twoDimensional[2][0]); //7
         System.out.printf("%d ", twoDimensional[2][1]); //8
         System.out.printf("%d ", twoDimensional[2][2]); //9
-        
+
+        System.out.println(); //don't mind
+
+        //2D: Traditional FOR LOOP
+        System.out.print("Traditional 2D: ");
+        for (int i = 0; i< twoDimensional.length; i++){
+            for (int j = 0; j< twoDimensional.length; j++){
+                System.out.printf("%d ", twoDimensional[i][j]);
+            }
+        }
+
+        System.out.println(); //don't mind
+
+        //2D: Enhanced FOR LOOP
+        System.out.print("Enhanced 2D: ");
+        for (int[] row : twoDimensional){
+            for (int enhanced2D : row){
+                System.out.printf("%d ", enhanced2D);
+            }
+        }
+
         System.out.println("\n"); //don't mind
 
         //SIZEABLE ARRAY
