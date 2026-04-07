@@ -20,3 +20,16 @@ An array is a data structure that stores multiple values of the same type in a s
 - For loop  
 - Enhanced for loop (for-each loop)  
 - Indexing
+
+---
+
+## 👨‍💻 Author
+
+**Christian A. Gulfan**
+Beginner programmer passionate about improving step by step 🚀
+
+---
+
+## 💬 Quote
+
+> The expert in anything was once a beginner.
