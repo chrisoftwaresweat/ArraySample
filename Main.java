@@ -12,7 +12,7 @@ public class Main{
         //REMEMBER: index starts @ 0, length starts @ 1
 
         //1D Array
-        String[] fruits = {"apple", "banana", "mango", "watermelon"}; //the array itself
+        String[] fruits = {"apple", "banana", "mango", "watermelon"};
 
         //print all using a normal for loop
         System.out.print("Normal for loop: ");
@@ -23,7 +23,7 @@ public class Main{
         System.out.println("\n"); //don't mind
 
         //print all using enhanced for loop
-        System.out.print("Enhance for loop: ");
+        System.out.print("Enhanced for loop: ");
         for(String fruitBasket : fruits){
             System.out.printf("%s ", fruitBasket);
         }
