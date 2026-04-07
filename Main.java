@@ -23,7 +23,7 @@ public class Main{
         System.out.println("\n"); //don't mind
 
         //print all using enhanced for loop
-        System.out.print("Enhance for loop: ");
+        System.out.print("Enhanced for loop: ");
         for(String fruitBasket : fruits){
             System.out.printf("%s ", fruitBasket);
         }
