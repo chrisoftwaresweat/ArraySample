@@ -69,11 +69,54 @@ public class Main{
 
         System.out.println(); //don't mind
 
-        //2D: Enhanced FOR LOOP
+        //2D: Enhance FOR LOOP
         System.out.print("Enhanced 2D: ");
         for (int[] row : twoDimensional){
             for (int enhanced2D : row){
                 System.out.printf("%d ", enhanced2D);
+            }
+        }
+
+        System.out.println("\n"); //don't mind
+
+        //3D Array
+        int[][][] threeDimensional = {
+                {
+                        {1, 2, 3}
+                },
+                {
+                        {4, 5, 6}
+                },
+                {
+                        {7, 8, 9}
+                }
+        };
+
+        //Won't dive deep on 3D array but here's a sample indexing
+        System.out.print("3D Array sample: ");
+        System.out.printf("%d ", threeDimensional[0][0][0]); //1
+        System.out.printf("%d ", threeDimensional[1][0][1]); //5
+        System.out.printf("%d ", threeDimensional[2][0][2]); //9
+
+        System.out.println(); //don't mind
+
+        //Traditional FOR LOOP
+        System.out.print("Traditional 3D: ");
+        for (int i = 0; i< threeDimensional.length; i++){
+            for (int j = 0; j< threeDimensional[i].length; j++){
+                for (int k = 0; k< threeDimensional.length; k++){
+                    System.out.printf("%d ", threeDimensional[i][j][k]);
+                }
+            }
+        }
+
+        System.out.println(); //don't mind
+
+        //Enhanced FOR LOOP
+        System.out.print("Enhanced 3D: ");
+        for (int layer[][] : threeDimensional){
+            for (int row[] : layer){
+                for (int enhanced3D : row) System.out.printf("%d ", enhanced3D);
             }
         }
 
