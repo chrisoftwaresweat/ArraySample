@@ -30,7 +30,7 @@ public class Main{
 
         System.out.println("\n"); //don't mind
 
-        //print each fruit in the array
+        //1D Array indexing
         System.out.println("Each fruit: ");
         System.out.println(fruits[0]);
         System.out.println(fruits[1]);
@@ -46,6 +46,8 @@ public class Main{
                 {7, 8, 9}
 
         };
+        
+        //2D Array indexing
         System.out.print("2D Array result: ");
         System.out.printf("%d ", twoDimensional[0][0]); //1
         System.out.printf("%d ", twoDimensional[0][1]); //2
