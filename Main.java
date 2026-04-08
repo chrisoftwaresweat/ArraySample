@@ -94,7 +94,7 @@ public class Main{
                 }
         };
 
-        //Won't dive deep on 3D array but here's a sample indexing
+        //3D Array indexing
         System.out.print("3D Array sample: ");
         System.out.printf("%d ", threeDimensional[0][0][0]); //1
         System.out.printf("%d ", threeDimensional[1][0][1]); //5
