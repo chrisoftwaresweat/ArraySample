@@ -102,7 +102,7 @@ public class Main{
 
         System.out.println(); //don't mind
 
-        //Traditional FOR LOOP
+        //3D: Traditional FOR LOOP
         System.out.print("Traditional 3D: ");
         for (int i = 0; i< threeDimensional.length; i++){
             for (int j = 0; j< threeDimensional[i].length; j++){
@@ -114,7 +114,7 @@ public class Main{
 
         System.out.println(); //don't mind
 
-        //Enhanced FOR LOOP
+        //3D: Enhanced FOR LOOP
         System.out.print("Enhanced 3D: ");
         for (int layer[][] : threeDimensional){
             for (int row[] : layer){
